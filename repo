@@ -1,0 +1,210 @@
+# 📚 Book Store Management System
+
+A full-stack Book Store Management System built using the **MERN Stack**.
+
+The application allows users to browse books, sellers to manage their inventory, and administrators to manage the overall platform.
+
+## 🚀 Tech Stack
+
+### Frontend
+- React 19
+- Vite
+- React Router
+- Axios
+- Tailwind CSS
+- Hero Icons
+- React Icons
+- Recharts
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Multer (Image Upload)
+- Cookie Parser
+- CORS
+
+---
+
+# 📂 Project Structure
+
+```
+book/
+│
+├── Frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── Backend/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Middlewares/
+│   ├── Config/
+│   ├── Routes/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+# ✨ Features
+
+- User Authentication
+- JWT Authorization
+- Admin Dashboard
+- Seller Dashboard
+- Book Management
+- Wishlist
+- Orders
+- Image Upload
+- MongoDB Database Integration
+- Responsive UI
+
+---
+
+# ⚙️ Prerequisites
+
+Make sure the following are installed:
+
+- Node.js (v18 or later)
+- npm
+- MongoDB (Local or MongoDB Atlas)
+
+---
+
+# 🔧 Installation
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/book-store.git
+```
+
+```bash
+cd book-store
+```
+
+---
+
+## 2. Install Backend Dependencies
+
+```bash
+cd Backend
+npm install
+```
+
+---
+
+## 3. Install Frontend Dependencies
+
+Open another terminal:
+
+```bash
+cd Frontend
+npm install
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file inside the **Backend** folder.
+
+Example:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+Replace the values with your own configuration.
+
+---
+
+# ▶️ Running the Project
+
+## Start Backend
+
+```bash
+cd Backend
+npm start
+```
+
+Backend runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+## Start Frontend
+
+```bash
+cd Frontend
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📦 Build Frontend
+
+```bash
+cd Frontend
+npm run build
+```
+
+---
+
+# API Overview
+
+The backend includes APIs for:
+
+- Authentication
+- Users
+- Sellers
+- Admin
+- Books
+- Wishlist
+- Orders
+
+---
+
+# 📸 Image Upload
+
+Images are uploaded using **Multer** and stored through the backend upload middleware.
+
+---
+
+# Future Improvements
+
+- Payment Gateway
+- Book Reviews
+- Search & Filtering
+- Email Notifications
+- Order Tracking
+- Docker Deployment
+
+---
+
+# 👨‍💻 Author
+
+Developed as a MERN Stack Book Store Management System.
+
+---
+
+# 📄 License
+
+This project is available for educational and learning purposes.
